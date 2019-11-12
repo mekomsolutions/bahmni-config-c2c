@@ -1,3 +1,5 @@
+![alt tag](readme/c2c-logo.png)
+
 # C2C Bahmni config
 
 This is the Bahmni configuration for the [_C2C Bahmni distribution_](https://github.com/mekomsolutions/bahmni-distro-c2c).
