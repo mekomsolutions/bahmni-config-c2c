@@ -387,5 +387,9 @@
   "INVESTIGATIONS_PANELS_HEADER_LABEL": "Panels",
   "INVESTIGATIONS_SELECTIONS_HEADER_LABEL": "Selection",
   "CLINICAL_GO_TO_DASHBOARD_LABEL": "Accéder à l'écran d'hospitalisation",
-  "NO_FORM_FOUND_FOR_PATIENT": "Aucun formulaire trouvé"
+  "NO_FORM_FOUND_FOR_PATIENT": "Aucun formulaire trouvé",
+  "VACCINATIONS": "Vaccinations",
+  "VACCINE": "Vaccin",
+  "SEQUENCE_NUMBER": "Numéro de séquence",
+  "DATE_GIVEN": "Date de vaccination"
 }
