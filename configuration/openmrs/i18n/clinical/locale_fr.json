@@ -390,6 +390,6 @@
   "NO_FORM_FOUND_FOR_PATIENT": "Aucun formulaire trouvé",
   "VACCINATIONS": "Vaccinations",
   "VACCINE": "Vaccin",
-  "SEQUENCE_NUMBER": "Numéro des vaccinations.",
+  "SEQUENCE_NUMBER": "Numéro de séquence",
   "DATE_GIVEN": "Date de vaccination"
 }
