@@ -105,5 +105,9 @@
   "VACCINATIONS": "Vaccinations",
   "VACCINE": "Vaccine",
   "SEQUENCE_NUMBER": "Sequence No.",
-  "DATE_GIVEN": "Date Given"
+  "DATE_GIVEN": "Date Given",
+  "VACCINE_MANUFACTURER":"Vaccine Manufacturer",
+  "VACCINE_LOT_NUMBER":"Vaccine Lot Number",
+  "VACCINE_LOT_EXPIRATION_DATE":"Vaccine Lot Expiration Date",
+  "MOST_RECENT_VACCINATION_SEQUENCES":"Vaccinations"
 }
