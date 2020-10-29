@@ -17,32 +17,38 @@
                     "countryDistrict"
                 ]
             },
-            "nutritionalValues": {
-                "translationKey": "DASHBOARD_TITLE_NUTRITIONAL_VALUES_KEY",
-                "type": "vitals",
-                "isObservation": true,
-                "displayOrder": 2,
+            "diagnosis": {
+                "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type": "diagnosis",
+                "showCertainty": true,
+                "showOrder": true,
+                "showDetailsButton": true,
+                "displayOrder": 1
+            },
+            "conditions": {
+                "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
+                "type": "conditionsList",
+                "displayOrder": 20
+            },
+            "labOrders": {
+                "orderType": "Lab Order",
+                "type": "ordersControl",
+                "title": "Lab Orders",
                 "dashboardConfig": {
                     "conceptNames": [
-                        "HEIGHT",
-                        "Weight",
-                        "BMI",
-                        "BMI STATUS"
+                        "Lab Samples"
                     ],
-                    "showDetailsButton": true,
-                    "numberOfVisits": 2
+                    "numberOfVisits": "4",
+                    "showHeader": true,
+                    "obsIgnoreList": [
+                        "Supine"
+                    ]
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "HEIGHT",
-                        "Weight",
-                        "BMI",
-                        "BMI STATUS"
+                        "Lab Samples"
                     ],
-                    "numberOfVisits": 2,
-                    "scope": "latest",
-                    "showDetailsButton": true,
-                    "pivotTable": {}
+                    "showHeader": true
                 }
             },
             "treatments": {
@@ -69,33 +75,69 @@
                     "showDetailsButton": true
                 }
             },
-            "labOrders": {
-                "orderType": "Lab Order",
-                "type": "ordersControl",
-                "title": "Lab Orders",
-                "displayOrder": 8,
+            "labResults": {
+                "translationKey": "DASHBOARD_TITLE_LAB_RESULTS_KEY",
+                "type": "labOrders",
+                "displayOrder": 10,
+                "dashboardConfig": {
+                    "title": null,
+                    "numberOfVisits": 1,
+                    "showChart": false,
+                    "showTable": true,
+                    "showDetailsButton": false,
+                    "initialAccessionCount": 0,
+                    "latestAccessionCount": 2
+                },
+                "expandedViewConfig": {
+                    "numberOfVisits": 10
+                }
+            },
+            "nutritionalValues": {
+                "translationKey": "DASHBOARD_TITLE_NUTRITIONAL_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 11,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Lab Samples"
+                        "HEIGHT",
+                        "Weight",
+                        "BMI",
+                        "BMI STATUS"
                     ],
-                    "numberOfVisits": "4",
-                    "showHeader": true,
-                    "obsIgnoreList": [
-                        "Supine"
-                    ]
+                    "showDetailsButton": true,
+                    "numberOfVisits": 2
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "Lab Samples"
+                        "HEIGHT",
+                        "Weight",
+                        "BMI",
+                        "BMI STATUS"
                     ],
-                    "showHeader": true
+                    "numberOfVisits": 2,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "customControl": {
+                "type": "custom",
+                "displayOrder": 12,
+                "showDetailsButton": true,
+                "config": {
+                    "showDetailsButton": true,
+                    "translationKey": "MOST_RECENT_VACCINATION_SEQUENCES",
+                    "template": "<vaccination></vaccination>",
+                    "vaccinationSets": [
+                        "Vaccination History"
+                    ]
                 }
             },
             "Laboratory": {
                 "translationKey": "DASHBOARD_TITLE_LABORATORY_KEY",
                 "type": "vitals",
                 "isObservation": true,
-                "displayOrder": 6,
+                "displayOrder": 12,
                 "dashboardConfig": {
                     "showDetailsButton": true,
                     "conceptNames": [
@@ -118,118 +160,14 @@
                     }
                 }
             },
-            "diagnosis": {
-                "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
-                "type": "diagnosis",
-                "showCertainty": true,
-                "showOrder": true,
-                "showDetailsButton": true,
-                "displayOrder": 1
-            },
-            "conditions": {
-                "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
-                "type": "conditionsList",
-                "displayOrder": 3
-            },
-            "customControl": {
-                "type": "custom",
-                "displayOrder": 5,
-                "showDetailsButton": true,
-                "config": {
-                    "showDetailsButton": true,
-                    "translationKey": "MOST_RECENT_VACCINATION_SEQUENCES",
-                    "template": "<vaccination></vaccination>",
-                    "vaccinationSets": [
-                        "Vaccination History"
-                    ]
-                }
-            },
             "visits": {
                 "translationKey": "DASHBOARD_TITLE_VISITS_KEY",
                 "type": "visits",
-                "displayOrder": 7,
+                "displayOrder": 17,
                 "dashboardConfig": {
                     "title": null,
                     "maximumNoOfVisits": 8,
                     "groupByVisits": true
-                }
-            },
-            "vitals": {
-                "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
-                "type": "vitals",
-                "isObservation": true,
-                "displayOrder": 8,
-                "dashboardConfig": {
-                    "conceptNames": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference"
-                    ],
-                    "showDetailsButton": true,
-                    "numberOfVisits": 2
-                },
-                "expandedViewConfig": {
-                    "conceptNames": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference"
-                    ],
-                    "numberOfVisits": 2,
-                    "scope": "latest",
-                    "showDetailsButton": true,
-                    "pivotTable": {}
-                }
-            },
-            "allergies": {
-                "translationKey": "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY",
-                "type": "vitals",
-                "isObservation": true,
-                "displayOrder": 9,
-                "dashboardConfig": {
-                    "conceptNames": [
-                        "Allergies"
-                    ],
-                    "showDetailsButton": true,
-                    "numberOfVisits": 3
-                },
-                "expandedViewConfig": {
-                    "conceptNames": [
-                        "Allergies"
-                    ],
-                    "numberOfVisits": 3,
-                    "scope": "latest",
-                    "showDetailsButton": true,
-                    "pivotTable": {}
-                }
-            },
-            "ANC": {
-                "translationKey": "DASHBOARD_TITLE_ANC_VALUES_KEY",
-                "type": "vitals",
-                "isObservation": true,
-                "displayOrder": 10,
-                "dashboardConfig": {
-                    "conceptNames": [
-                        "First Visit",
-                        "Estimated Gestational Age"
-                    ],
-                    "showDetailsButton": true,
-                    "numberOfVisits": 3
-                },
-                "expandedViewConfig": {
-                    "conceptNames": [
-                        "First Visit",
-                        "Estimated Gestational Age"
-                    ],
-                    "numberOfVisits": 6,
-                    "scope": "latest",
-                    "showDetailsButton": true,
-                    "pivotTable": {}
                 }
             }
         }
@@ -249,7 +187,7 @@
                     "referenceData": "charts/heightForAge.csv",
                     "numberOfVisits": 20
                 },
-                "displayOrder": 10
+                "displayOrder": 30
             },
             "weightForAgeChart": {
                 "type": "observationGraph",
@@ -261,7 +199,7 @@
                     "referenceData": "charts/weightForAge.csv",
                     "numberOfVisits": 20
                 },
-                "displayOrder": 11
+                "displayOrder": 32
             },
             "BP": {
                 "type": "observationGraph",
@@ -274,7 +212,7 @@
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
-                "displayOrder": 12
+                "displayOrder": 2
             },
             "weight/BMI": {
                 "type": "observationGraph",
@@ -287,7 +225,7 @@
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
-                "displayOrder": 13
+                "displayOrder": 3
             },
             "observationGraph": {
                 "type": "observationGraph",
@@ -299,7 +237,85 @@
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
-                "displayOrder": 14
+                "displayOrder": 5
+            }
+        }
+    },
+    "patientSummary": {
+        "translationKey": "DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "Bacteriology Concept Set": {
+                "displayType": "Full-Page",
+                "translationKey": "DASHBOARD_TITLE_BACTERIOLOGY_RESULTS_KEY",
+                "type": "obsToObsFlowSheet",
+                "dashboardConfig": {
+                    "numberOfVisits": 1,
+                    "templateName": "BACTERIOLOGY CONCEPT SET",
+                    "groupByConcept": "Specimen Collection Date",
+                    "conceptNames": [
+                        "Specimen Id"
+                    ]
+                },
+                "expandedViewConfig": {
+                    "templateName": "BACTERIOLOGY CONCEPT SET",
+                    "groupByConcept": "Specimen Collection Date"
+                }
+            },
+            "HistoryAndExamination": {
+                "type": "historyAndExamination",
+                "isObservation": true,
+                "displayType": "Full-Page",
+                "dashboardConfig": {
+                    "showGroupDateTime": false,
+                    "conceptNames": [
+                        "Chief Complaint Data",
+                        "Examination Notes",
+                        "Smoking History",
+                        "Clief COmplaint Notes",
+                        "Blood Pressure"
+                    ]
+                },
+                "displayOrder": 6,
+                "translationKey": "DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
+            },
+            "drugOther": {
+                "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type": "drugOrderDetails",
+                "displayType": "Full-Page",
+                "showDetailsButton": true,
+                "displayOrder": 24,
+                "dashboardConfig": {
+                    "showOnlyActive": true,
+                    "drugConceptSet": "All Other Drugs"
+                }
+            },
+            "malaria": {
+                "title": "Malaria",
+                "type": "obsToObsFlowSheet",
+                "displayType": "Full-Page",
+                "displayOrder": 26,
+                "dashboardConfig": {
+                    "groupByConcept": "Malaria, Treatment Start Date",
+                    "templateName": "Malaria",
+                    "conceptNames": [
+                        "Malaria, Parents Name",
+                        "Malaria, drug regimen",
+                        "Malaria, Malaria Type",
+                        "Malaria, Source"
+                    ]
+                }
+            },
+            "Chronic Treatment Chart": {
+                "displayType": "Full-Page",
+                "title": "Chronic Treatment Chart",
+                "type": "chronicTreatmentChart",
+                "dashboardConfig": {
+                    "drugs": []
+                },
+                "expandedViewConfig": {
+                    "drugs": []
+                }
             }
         }
     }
