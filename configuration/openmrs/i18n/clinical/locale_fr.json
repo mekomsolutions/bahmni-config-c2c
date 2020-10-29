@@ -9,7 +9,7 @@
   "MODULE_LABEL_GENERAL_KEY":"Général",
   "MODULE_LABEL_PRENATAL_KEY":"Prénatal",
   "MODULE_LABEL_FAMILY_PLANNING_KEY":"Planification familiale",
-  "MODULE_LABEL_INFANT_IMMUNIZATION_KEY":"Vaccination infantile",
+  "MODULE_LABEL_INFANT_VACCINATION_KEY":"Vaccination infantile",
   "MODULE_LABEL_MALNUTRITION_KEY":"Malnutrition",
   "IMPL_BP_PULSE": "Tension artérielle / Pouls",
   "IMPL_GROWTH_CHART": "Courbe de croissance",
