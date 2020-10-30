@@ -53,6 +53,10 @@
   "DASHBOARD_TAB_PATIENT_SUMMARY_KEY": "Synthèse patient",
   "DASHBOARD_TAB_DISCHARGE_SUMMARY_KEY": "Synthèse de sortie",
   "DASHBOARD_TAB_ORDERS_KEY": "Examens",
+
+  "DASHBOARD_TITLE_HEIGHT_AGE_KEY": "Courbe de taille",
+  "DASHBOARD_TITLE_WEIGHT_AGE_KEY": "Courbe de poids",
+  
   "LAB_INVESTIGATIONS_KEY": "Examens laboratoire",
   "PACS_ORDERS_VISIT_PAGE_KEY": "Examens PACS",
   "DISCHARGE_SUMMARY_DIAGNOSIS_KEY": "Diagnostic",
