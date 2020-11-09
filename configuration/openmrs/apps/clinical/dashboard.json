@@ -153,6 +153,84 @@
                     "maximumNoOfVisits": 8,
                     "groupByVisits": true
                 }
+            },
+            "vitals": {
+                "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 8,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Blood Pressure Set",
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 2
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "Blood Pressure Set",
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "numberOfVisits": 2,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "allergies": {
+                "translationKey": "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 9,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 3
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "numberOfVisits": 3,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "ANC": {
+                "translationKey": "DASHBOARD_TITLE_ANC_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 10,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "First Visit",
+                        "Estimated Gestational Age"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 3
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "First Visit",
+                        "Estimated Gestational Age"
+                    ],
+                    "numberOfVisits": 6,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
             }
         }
     },
