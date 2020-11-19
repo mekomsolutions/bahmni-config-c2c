@@ -9,7 +9,7 @@
   "MODULE_LABEL_GENERAL_KEY":"Général",
   "MODULE_LABEL_PRENATAL_KEY":"Prénatal",
   "MODULE_LABEL_FAMILY_PLANNING_KEY":"Planification familiale",
-  "MODULE_LABEL_INFANT_IMMUNIZATION_KEY":"Vaccination infantile",
+  "MODULE_LABEL_INFANT_VACCINATION_KEY":"Vaccination infantile",
   "MODULE_LABEL_MALNUTRITION_KEY":"Malnutrition",
   "IMPL_BP_PULSE": "Tension artérielle / Pouls",
   "IMPL_GROWTH_CHART": "Courbe de croissance",
@@ -37,6 +37,8 @@
   "DASHBOARD_TITLE_NAVIGATION_LINKS_CONTROL_KEY": "Raccourcis",
   "DASHBOARD_TITLE_RADIOLOGY_ORDERS_KEY": "Radiologie",
   "DASHBOARD_TITLE_VITALS_KEY": "Constantes",
+  "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY":"Allergies",
+  "DASHBOARD_TITLE_ANC_VALUES_KEY":"Soin prénatal",
   "DASHBOARD_TITLE_PATIENT_INFORMATION_KEY": "Informations du patient",
   "DASHBOARD_TITLE_BACTERIOLOGY_RESULTS_KEY": "Resultats d'examens bactériologiques",
   "DASHBOARD_TITLE_FORMS_DISPLAY_CONTROL_KEY": "Formulaires",
@@ -53,6 +55,10 @@
   "DASHBOARD_TAB_PATIENT_SUMMARY_KEY": "Synthèse patient",
   "DASHBOARD_TAB_DISCHARGE_SUMMARY_KEY": "Synthèse de sortie",
   "DASHBOARD_TAB_ORDERS_KEY": "Examens",
+
+  "DASHBOARD_TITLE_HEIGHT_AGE_KEY": "Courbe de taille",
+  "DASHBOARD_TITLE_WEIGHT_AGE_KEY": "Courbe de poids",
+  
   "LAB_INVESTIGATIONS_KEY": "Examens laboratoire",
   "PACS_ORDERS_VISIT_PAGE_KEY": "Examens PACS",
   "DISCHARGE_SUMMARY_DIAGNOSIS_KEY": "Diagnostic",

@@ -120,16 +120,16 @@
     "order": 5,
     "requiredPrivilege": "app:clinical"
   },
-  "bahmniClinicalPatientsSearchInfantImmunizationPatient": {
-    "id": "bahmni.clinical.patients.search.infantImmunizationPatients",
+  "bahmniClinicalPatientsSearchInfantVaccinationPatient": {
+    "id": "bahmni.clinical.patients.search.infantvaccinationPatients",
     "extensionPointId": "org.bahmni.patient.search",
     "type": "config",
     "extensionParams": {
-      "searchHandler":"emrapi.sqlSearch.infantImmunizationPatients",
-      "translationKey": "MODULE_LABEL_INFANT_IMMUNIZATION_KEY",
+      "searchHandler":"emrapi.sqlSearch.infantvaccinationPatients",
+      "translationKey": "MODULE_LABEL_INFANT_VACCINATION_KEY",
       "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
     },
-    "label": "Infant Immunization",
+    "label": "Infant Vaccination",
     "order": 6,
     "requiredPrivilege": "app:clinical"
   },

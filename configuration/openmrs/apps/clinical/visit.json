@@ -1,0 +1,30 @@
+{
+    "general":{
+        "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
+        "displayByDefault": true,
+        "printing": {
+            "title": "Bahmni",
+            "header": "Visit",
+            "logo": "../images/bahmniLogo.png"
+        },
+        "defaultSections": true,
+        "sections": {
+            "pivotTable":{
+                "type": "pivotTable",
+                "displayOrder": 0,
+                "title": "Vitals Flowsheet",
+                "config": {
+                    "groupBy": "encounters",
+                    "obsConcepts": [
+                        "Blood Pressure Set",
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference" 
+                    ]
+                }
+            }
+        }
+    }
+}
