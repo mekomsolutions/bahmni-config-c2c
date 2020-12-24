@@ -27,7 +27,8 @@
                         "HEIGHT",
                         "Weight",
                         "BMI",
-                        "BMI STATUS"
+                        "BMI STATUS",
+                        "Mid-Upper Arm Circumference"
                     ],
                     "showDetailsButton": true,
                     "numberOfVisits": 2
@@ -37,7 +38,8 @@
                         "HEIGHT",
                         "Weight",
                         "BMI",
-                        "BMI STATUS"
+                        "BMI STATUS",
+                        "Mid-Upper Arm Circumference"
                     ],
                     "numberOfVisits": 2,
                     "scope": "latest",
