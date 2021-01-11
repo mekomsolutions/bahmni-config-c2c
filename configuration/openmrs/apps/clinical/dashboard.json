@@ -210,11 +210,19 @@
                     "pivotTable": {}
                 }
             },
+            "patientAppointments": {
+                "type": "custom",
+                "displayOrder": 10,
+                "config": {
+                    "title": "DASHBOARD_TITLE_APPOINTMENTS_KEY",
+                    "template": "<patient-appointments-dashboard section='config' patient='patient'></patient-appointments-dashboard>"
+                }
+            },
             "ANC": {
                 "translationKey": "DASHBOARD_TITLE_ANC_VALUES_KEY",
                 "type": "vitals",
                 "isObservation": true,
-                "displayOrder": 10,
+                "displayOrder": 11,
                 "dashboardConfig": {
                     "conceptNames": [
                         "First Visit",
