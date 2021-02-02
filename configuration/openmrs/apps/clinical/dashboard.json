@@ -318,5 +318,103 @@
                 "displayOrder": 15
             }
         }
+    },
+    "referral": {
+        "translationKey": "DASHBOARD_TAB_REFERRAL_KEY",
+        "displayByDefault": true,
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "referralNote": {
+                "translationKey": "DASHBOARD_TITLE_REFERRAL_NOTE_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 0,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Reason for Consultation",
+                        "Disposition Note"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 1
+                }
+            },
+            "nutritionalValues": {
+                "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 1,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Systolic Blood Pressure",
+                        "Diastolic Blood Pressure",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 1
+                }
+            },
+            "allergies": {
+                "translationKey": "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 2,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 3
+                }
+            },
+            "conditions": {
+                "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
+                "type": "conditionsList",
+                "displayOrder": 3
+            },
+            "treatments": {
+                "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type": "treatment",
+                "displayOrder": 4,
+                "dashboardConfig": {
+                    "showFlowSheet": true,
+                    "showListView": true,
+                    "showRoute": true,
+                    "showDrugForm": true,
+                    "numberOfVisits": 5,
+                    "showOtherActive": true,
+                    "showDetailsButton": false
+                }
+            },
+            "diagnosis": {
+                "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type": "diagnosis",
+                "showCertainty": true,
+                "showOrder": true,
+                "showDetailsButton": false,
+                "displayOrder": 1
+            },
+            "labResults": {
+                "translationKey": "DASHBOARD_TITLE_LAB_RESULTS_KEY",
+                "type": "labOrders",
+                "displayOrder": 12,
+                "dashboardConfig": {
+                    "title": null,
+                    "numberOfVisits": 6,
+                    "showChart": false,
+                    "showTable": true,
+                    "showNormalLabResults": true,
+                    "showCommentsExpanded": true,
+                    "showAccessionNotes": true,
+                    "showDetailsButton": false
+                },
+                "expandedViewConfig": {
+                    "numberOfVisits": 10
+                }
+            }
+        }
     }
 }
