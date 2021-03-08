@@ -64,7 +64,6 @@
                 "type": "conditionsList",
                 "displayOrder": 3
             },
-            
             "treatments": {
                 "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type": "treatment",
@@ -282,18 +281,29 @@
                 },
                 "displayOrder": 12
             },
-            "weight/BMI": {
+            "weight": {
                 "type": "observationGraph",
-                "translationKey": "DASHBOARD_TITLE_WEIGHT_BMI",
+                "translationKey": "DASHBOARD_TITLE_WEIGHT",
                 "config": {
                     "yAxisConcepts": [
-                        "Weight",
-                        "BMI"
+                        "Weight"
                     ],
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
                 "displayOrder": 13
+            },
+            "BMI": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_BMI",
+                "config": {
+                    "yAxisConcepts": [
+                        "BMI"
+                    ],
+                    "xAxisConcept": "observationDateTime",
+                    "numberOfVisits": 10
+                },
+                "displayOrder": 14
             },
             "observationGraph": {
                 "type": "observationGraph",
@@ -305,7 +315,7 @@
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
-                "displayOrder": 14
+                "displayOrder": 15
             }
         }
     }
