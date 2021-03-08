@@ -331,8 +331,7 @@
                 "displayOrder": 0,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Reason for Consultation",
-                        "Disposition Note"
+                        "Referral"
                     ],
                     "showDetailsButton": false,
                     "numberOfVisits": 1
