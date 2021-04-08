@@ -16,12 +16,12 @@
                 "config": {
                     "groupBy": "encounters",
                     "obsConcepts": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference" 
+                        "Groupe tension artérielle",
+                        "Température",
+                        "Pouls",
+                        "Frequence respiratoire",
+                        "Saturation d'oxygène",
+                        "Périmètre bracchial" 
                     ]
                 }
             }
