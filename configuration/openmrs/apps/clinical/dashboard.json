@@ -3,6 +3,12 @@
         "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Patient General Report",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "patientInformation": {
                 "translationKey": "DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
@@ -243,6 +249,12 @@
         "translationKey": "DASHBOARD_TAB_TRENDS_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Patient Trends",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "heightForAgeChart": {
                 "type": "observationGraph",
@@ -323,6 +335,12 @@
         "translationKey": "DASHBOARD_TAB_REFERRAL_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Medical Referral Form",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "referralNote": {
                 "translationKey": "DASHBOARD_TITLE_REFERRAL_NOTE_KEY",
