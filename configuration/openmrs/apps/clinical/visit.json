@@ -4,7 +4,7 @@
         "displayByDefault": true,
         "printing": {
             "title": "C2C",
-            "header": "Visit",
+            "header": "Visite",
             "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png"
         },
         "defaultSections": true,
