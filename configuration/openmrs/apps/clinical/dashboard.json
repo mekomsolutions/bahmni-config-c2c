@@ -3,6 +3,12 @@
         "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Rapport général",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "patientInformation": {
                 "translationKey": "DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
@@ -36,22 +42,22 @@
                 "displayOrder": 2,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "HEIGHT",
-                        "Weight",
+                        "Taille",
+                        "Poids",
                         "BMI",
                         "BMI STATUS",
-                        "Mid-Upper Arm Circumference"
+                        "Périmètre bracchial"
                     ],
                     "showDetailsButton": true,
                     "numberOfVisits": 2
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "HEIGHT",
-                        "Weight",
+                        "Taille",
+                        "Poids",
                         "BMI",
                         "BMI STATUS",
-                        "Mid-Upper Arm Circumference"
+                        "Périmètre bracchial"
                     ],
                     "numberOfVisits": 2,
                     "scope": "latest",
@@ -97,7 +103,7 @@
                     "translationKey": "RECENT_VACCINATIONS",
                     "template": "<vaccination></vaccination>",
                     "vaccinationSets": [
-                        "Vaccination History"
+                        "Historique vaccinal"
                     ]
                 }
             },
@@ -108,24 +114,24 @@
                 "displayOrder": 6,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference"
+                        "Groupe tension artérielle",
+                        "Température",
+                        "Pouls",
+                        "Frequence respiratoire",
+                        "Saturation d'oxygène",
+                        "Périmètre bracchial"
                     ],
                     "showDetailsButton": true,
                     "numberOfVisits": 2
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference"
+                        "Groupe tension artérielle",
+                        "Température",
+                        "Pouls",
+                        "Frequence respiratoire",
+                        "Saturation d'oxygène",
+                        "Périmètre bracchial"
                     ],
                     "numberOfVisits": 2,
                     "scope": "latest",
@@ -180,16 +186,16 @@
                 "displayOrder": 10,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "First Visit",
-                        "Estimated Gestational Age"
+                        "Première visite",
+                        "Age gestationnel estimé"
                     ],
                     "showDetailsButton": true,
                     "numberOfVisits": 3
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "First Visit",
-                        "Estimated Gestational Age"
+                        "Première visite",
+                        "Age gestationnel estimé"
                     ],
                     "numberOfVisits": 6,
                     "scope": "latest",
@@ -204,7 +210,7 @@
                 "displayOrder": 11,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Lab Samples"
+                        "Échantillons de laboratoire"
                     ],
                     "numberOfVisits": "4",
                     "showHeader": true,
@@ -214,7 +220,7 @@
                 },
                 "expandedViewConfig": {
                     "conceptNames": [
-                        "Lab Samples"
+                        "Échantillons de laboratoire"
                     ],
                     "showHeader": true
                 }
@@ -243,13 +249,19 @@
         "translationKey": "DASHBOARD_TAB_TRENDS_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Tendances",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "heightForAgeChart": {
                 "type": "observationGraph",
                 "translationKey": "DASHBOARD_TITLE_HEIGHT_AGE_KEY",
                 "config": {
                     "yAxisConcepts": [
-                        "Height"
+                        "Taille"
                     ],
                     "referenceData": "charts/heightForAge.csv",
                     "numberOfVisits": 20
@@ -261,7 +273,7 @@
                 "translationKey": "DASHBOARD_TITLE_WEIGHT_AGE_KEY",
                 "config": {
                     "yAxisConcepts": [
-                        "Weight"
+                        "Poids"
                     ],
                     "referenceData": "charts/weightForAge.csv",
                     "numberOfVisits": 20
@@ -286,7 +298,7 @@
                 "translationKey": "DASHBOARD_TITLE_WEIGHT",
                 "config": {
                     "yAxisConcepts": [
-                        "Weight"
+                        "Poids"
                     ],
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
@@ -310,7 +322,7 @@
                 "translationKey": "DASHBOARD_TITLE_PULSE",
                 "config": {
                     "yAxisConcepts": [
-                        "Pulse"
+                        "Pouls"
                     ],
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
@@ -323,6 +335,12 @@
         "translationKey": "DASHBOARD_TAB_REFERRAL_KEY",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
+        "printing": {
+            "title": "C2C",
+            "header": "Formulaire de référence",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png",
+            "showNameAndImage": true
+        },
         "sections": {
             "referralNote": {
                 "translationKey": "DASHBOARD_TITLE_REFERRAL_NOTE_KEY",
@@ -331,7 +349,7 @@
                 "displayOrder": 0,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Referral"
+                        "Référence"
                     ],
                     "showDetailsButton": false,
                     "numberOfVisits": 1
@@ -344,13 +362,13 @@
                 "displayOrder": 1,
                 "dashboardConfig": {
                     "conceptNames": [
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Systolic Blood Pressure",
-                        "Diastolic Blood Pressure",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference"
+                        "Température",
+                        "Pouls",
+                        "Frequence respiratoire",
+                        "Tension artérielle systolique",
+                        "Tension artérielle diastolique",
+                        "Saturation d'oxygène",
+                        "Périmètre bracchial"
                     ],
                     "showDetailsButton": false,
                     "numberOfVisits": 1

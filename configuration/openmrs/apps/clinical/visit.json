@@ -3,9 +3,9 @@
         "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
         "displayByDefault": true,
         "printing": {
-            "title": "Bahmni",
-            "header": "Visit",
-            "logo": "../images/bahmniLogo.png"
+            "title": "C2C",
+            "header": "Visite",
+            "logo": "/bahmni_config/openmrs/apps/home/C2C_logo.png"
         },
         "defaultSections": true,
         "sections": {
@@ -16,12 +16,12 @@
                 "config": {
                     "groupBy": "encounters",
                     "obsConcepts": [
-                        "Blood Pressure Set",
-                        "Temperature",
-                        "Pulse",
-                        "Respiratory Rate",
-                        "Oxygen Saturation",
-                        "Mid-Upper Arm Circumference" 
+                        "Groupe tension artérielle",
+                        "Température",
+                        "Pouls",
+                        "Frequence respiratoire",
+                        "Saturation d'oxygène",
+                        "Périmètre bracchial" 
                     ]
                 }
             }
