@@ -161,6 +161,19 @@
     "order": 9,
     "requiredPrivilege": "app:clinical"
   },
+  "bahmniClinicalPatientsSearchLabPatient": {
+    "id": "bahmni.clinical.patients.search.LabPatients",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler": "emrapi.sqlSearch.LabPatients",
+      "translationKey": "MODULE_LABEL_LAB_KEY",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+    },
+    "label": "LAB",
+    "order": 10,
+    "requiredPrivilege": "app:clinical"
+  },
   "bahmniClinicalConceptSetGroupObservationsHistory": {
     "id": "bahmni.clinical.conceptSetGroup.observations.history",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
