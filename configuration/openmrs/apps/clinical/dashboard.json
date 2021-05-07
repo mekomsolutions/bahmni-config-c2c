@@ -20,7 +20,6 @@
                     "2ndPhoneNumber",
                     "impl.contactPersonName",
                     "impl.contactPersonPhoneNumber"
-                    
                 ],
                 "addressFields": [
                     "address1",
