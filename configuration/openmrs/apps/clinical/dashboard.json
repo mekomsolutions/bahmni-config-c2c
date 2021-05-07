@@ -16,8 +16,11 @@
                 "displayOrder": 0,
                 "ageLimit": 100,
                 "patientAttributes": [
+                    "phoneNumber",
+                    "2ndPhoneNumber",
                     "impl.contactPersonName",
                     "impl.contactPersonPhoneNumber"
+                    
                 ],
                 "addressFields": [
                     "address1",
