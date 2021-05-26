@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 13
+    nil%: 0.6153846153846154
+  type:
+    type/Number:
+      min: 2.0
+      q1: 13.875
+      q3: 96.75
+      max: 156.0
+      sd: 46.66126669437736
+      avg: 65.16666666666667
+visibility_type: normal
+base_type: type/Float
+last_analyzed: '2021-05-24T10:30:55.458141Z'
+custom_position: 0
+special_type: null
+position: 10
+fingerprint_version: 5
+name: value_numeric
+database_position: 10
+has_field_values: null
+display_name: Value Numeric
+parent_id: null
+caveats: null
+active: true
+database_type: float8
+description: null
+fk_target_field_id: null

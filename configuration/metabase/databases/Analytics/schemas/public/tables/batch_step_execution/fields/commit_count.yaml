@@ -1,0 +1,40 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 1
+  - 2
+  - 15
+  - 20
+  - 9640
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 3
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 1.0
+      q1: 1.0
+      q3: 7.96553978897469
+      max: 9640.0
+      sd: 1731.1051159824597
+      avg: 312.5483870967742
+visibility_type: normal
+base_type: type/BigInteger
+last_analyzed: '2021-05-24T09:27:20.573861Z'
+custom_position: 0
+special_type: type/Quantity
+position: 7
+fingerprint_version: 5
+name: commit_count
+database_position: 7
+has_field_values: auto-list
+display_name: Commit Count
+parent_id: null
+caveats: null
+active: true
+database_type: int8
+description: null
+fk_target_field_id: null

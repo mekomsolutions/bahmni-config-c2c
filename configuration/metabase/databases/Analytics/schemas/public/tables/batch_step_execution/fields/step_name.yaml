@@ -1,0 +1,76 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - Address hierarchy levels Insertion Step
+  - Appointment service Insertion Step
+  - Appointment service Removal Step
+  - Appointment service availability Insertion Step
+  - Appointment service availability Removal Step
+  - Appointment speciality Insertion Step
+  - Concepts Insertion Step
+  - Concepts Removal Step
+  - Conditions Insertion Step
+  - Dummy Step
+  - Insertion Step-1 Visit Diagnoses
+  - Insertion Step-2 Visit Diagnoses
+  - Lab Samples
+  - Location Attribute Details Insertion Step
+  - Location Tag Map Insertion Step
+  - Locations Insertion Step
+  - Medication Data Insertion Step
+  - Meta Data Export Step
+  - Patient Encounter Details Insertion Step
+  - Patient Encounter Details Removal Step
+  - Patient State Insertion Step
+  - Patient State Removal Step
+  - Patient Visit Details Insertion Step
+  - Patient allergy status Insertion Step
+  - Patient allergy status Removal Step
+  - Patient appointment Insertion Step
+  - Patient appointment Removal Step
+  - Patient identification Insertion Step
+  - Patient identification Removal Step
+  - Person Attribute Info Insertion Step
+  - Person Attributes Insertion Step
+  - Person Attributes Removal Step
+  - Person address Insertion Step
+  - Person address Removal Step
+  - Person details Insertion Step
+  - Person details Removal Step
+  - Removal Step-1 Visit Diagnoses
+  - Visit Attribute Details Insertion Step
+  - Visit Attributes Insertion Step
+  - Visits Insertion Step
+  - base_obs_query Insertion Step
+  - base_obs_query Removal Step
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 28
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 28.451612903225808
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-24T09:27:20.573861Z'
+custom_position: 0
+special_type: type/Category
+position: 2
+fingerprint_version: 5
+name: step_name
+database_position: 2
+has_field_values: auto-list
+display_name: Step Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

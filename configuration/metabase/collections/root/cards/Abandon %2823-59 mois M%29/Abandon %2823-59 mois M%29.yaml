@@ -1,0 +1,122 @@
+enable_embedding: false
+visualization_settings: {}
+dataset_query:
+  type: query
+  query:
+    source-table: /databases/Analytics/schemas/public/tables/visits
+    filter:
+    - and
+    - - between
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/age_at_visit
+      - 23.9
+      - 60
+    - - =
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/gender
+      - M
+    - - =
+      - - joined-field
+        - Concepts
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/uuid
+      - 32de1494-eb45-47fa-bc1f-4ea80cb487e5
+    - - =
+      - - joined-field
+        - Concepts
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/locale
+      - fr
+    - - =
+      - - joined-field
+        - Concepts
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/locale_preferred
+      - 'true'
+    - - =
+      - - joined-field
+        - Concepts_2
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/locale
+      - en
+    - - =
+      - - joined-field
+        - Concepts_2
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/locale_preferred
+      - 'true'
+    - - =
+      - - joined-field
+        - Concepts_2
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/uuid
+      - 3cd5bb6d-29ae-4f3c-90e4-dd77fb08c2ca
+    aggregation:
+    - - count
+    joins:
+    - fields: all
+      source-table: /databases/Analytics/schemas/public/tables/base_obs_query
+      condition:
+      - =
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/visit_id
+      - - joined-field
+        - Base Obs Query
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/base_obs_query/fields/visit_id
+      alias: Base Obs Query
+    - fields: all
+      source-table: /databases/Analytics/schemas/public/tables/concepts
+      condition:
+      - =
+      - - joined-field
+        - Base Obs Query
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/base_obs_query/fields/concept_id
+      - - joined-field
+        - Concepts
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/concept_id
+      alias: Concepts
+    - fields: all
+      source-table: /databases/Analytics/schemas/public/tables/concepts
+      condition:
+      - =
+      - - joined-field
+        - Base Obs Query
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/base_obs_query/fields/value_coded
+      - - joined-field
+        - Concepts_2
+        - - field-id
+          - /databases/Analytics/schemas/public/tables/concepts/fields/concept_id
+      alias: Concepts_2
+  database: /databases/Analytics
+name: Abandon (23-59 mois M)
+archived: false
+collection_position: null
+database_id: /databases/Analytics
+embedding_params: null
+table_id: /databases/Analytics/schemas/public/tables/visits
+result_metadata:
+- base_type: type/BigInteger
+  display_name: Count
+  name: count
+  special_type: type/Quantity
+  fingerprint:
+    global:
+      distinct-count: 1
+      nil%: 0.0
+    type:
+      type/Number:
+        min: 0.0
+        q1: 0.0
+        q3: 0.0
+        max: 0.0
+        sd: null
+        avg: 0.0
+query_type: query
+cache_ttl: null
+display: scalar
+public_uuid: null
+description: Abandon (23-59 mois M)

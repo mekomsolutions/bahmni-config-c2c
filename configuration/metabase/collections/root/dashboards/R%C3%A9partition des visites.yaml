@@ -1,0 +1,173 @@
+points_of_interest: null
+enable_embedding: false
+dashboard_cards:
+- sizeX: 4
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de moins d%27un an %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 0
+- sizeX: 4
+  series: []
+  col: 4
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 1 an %C3%A0 4 ans %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 0
+- sizeX: 4
+  series: []
+  col: 8
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 5 ans %C3%A0 9 ans %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 0
+- sizeX: 4
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 10 ans %C3%A0 14 ans %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 0
+- sizeX: 4
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Jeunes adultes de 15 ans %C3%A0 19 ans %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 4
+- sizeX: 4
+  series: []
+  col: 4
+  parameter_mappings: []
+  card_id: /collections/root/cards/Jeunes adultes de 20 ans %C3%A0 24 ans %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 4
+- sizeX: 4
+  series: []
+  col: 8
+  parameter_mappings: []
+  card_id: /collections/root/cards/Femmes enceintes %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 4
+- sizeX: 4
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Clients PF %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 4
+- sizeX: 4
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Autres adultes %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 8
+- sizeX: 4
+  series: []
+  col: 4
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total %28Nouvelles%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 8
+- sizeX: 4
+  series: []
+  col: 8
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de moins d%27un an %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 8
+- sizeX: 4
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 1 an %C3%A0 4 ans %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 8
+- sizeX: 4
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 5 ans %C3%A0 9 ans %28Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 12
+- sizeX: 4
+  series: []
+  col: 4
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants de 10 ans %C3%A0 14 ans %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 12
+- sizeX: 4
+  series: []
+  col: 8
+  parameter_mappings: []
+  card_id: /collections/root/cards/Jeunes adultes de 15 ans %C3%A0 19 ans %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 12
+- sizeX: 4
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Jeunes adultes de 20 ans %C3%A0 24 ans %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 12
+- sizeX: 4
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Femmes enceintes %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 16
+- sizeX: 4
+  series: []
+  col: 4
+  parameter_mappings: []
+  card_id: /collections/root/cards/Clients PF %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 16
+- sizeX: 4
+  series: []
+  col: 8
+  parameter_mappings: []
+  card_id: /collections/root/cards/Autres adultes %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 16
+- sizeX: 4
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total %28 Subs%C3%A9quentes%29
+  visualization_settings: {}
+  sizeY: 4
+  row: 16
+show_in_getting_started: false
+position: null
+name: Répartition des visites
+archived: false
+collection_position: null
+embedding_params: null
+public_uuid: null
+caveats: null
+parameters: []
+description: Répartition des visites
