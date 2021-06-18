@@ -32,6 +32,17 @@
     "order": 2,
     "requiredPrivilege": "app:radiologyOrders"
   },
+  "consultationSummary": {
+    "id": "bahmni.clinical.consultation.summary",
+    "extensionPointId": "org.bahmni.clinical.consultation.board",
+    "type": "link",
+    "label": "Consultation",
+    "translationKey":"CONSULTATION_BOARD_LABEL_KEY",
+    "url": "consultation",
+    "icon": "fa-user-md",
+    "order": 5,
+    "requiredPrivilege": "app:clinical:consultationTab"
+  },
   "bahmniClinicalPatientsSearchAllPatients": {
     "id": "bahmni.clinical.patients.search.allPatients",
     "extensionPointId": "org.bahmni.patient.search",
