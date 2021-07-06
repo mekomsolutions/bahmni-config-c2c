@@ -1,0 +1,41 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 1
+  - 2330
+  - 2587
+  - 2616
+  - 2629
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 8
+    nil%: 0.6923076923076923
+  type:
+    type/Number:
+      min: 1.0
+      q1: 181.32980650614564
+      q3: 2353.5
+      max: 2356.0
+      sd: 1033.6735901188008
+      avg: 1010.0
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-24T10:30:55.458141Z'
+custom_position: 0
+special_type: type/Category
+position: 6
+fingerprint_version: 5
+name: value_coded
+database_position: 6
+has_field_values: auto-list
+display_name: Value Coded
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: null
+fk_target_field_id: null

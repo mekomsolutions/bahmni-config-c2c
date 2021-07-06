@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 2
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 2.0027
+      q1: 2.0027
+      q3: 19.0137
+      max: 19.0137
+      sd: 12.028593454764362
+      avg: 10.5082
+visibility_type: normal
+base_type: type/Decimal
+last_analyzed: '2021-05-24T10:30:55.458141Z'
+custom_position: 0
+special_type: null
+position: 16
+fingerprint_version: 5
+name: age_at_visit
+database_position: 16
+has_field_values: null
+display_name: Age At Visit
+parent_id: null
+caveats: null
+active: true
+database_type: numeric
+description: null
+fk_target_field_id: null

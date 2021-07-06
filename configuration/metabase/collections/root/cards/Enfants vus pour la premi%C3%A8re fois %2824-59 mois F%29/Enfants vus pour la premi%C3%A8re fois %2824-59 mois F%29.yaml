@@ -1,0 +1,52 @@
+enable_embedding: false
+visualization_settings: {}
+dataset_query:
+  database: /databases/Analytics
+  query:
+    source-table: /databases/Analytics/schemas/public/tables/visits
+    filter:
+    - and
+    - - between
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/age_at_visit
+      - 23.9
+      - 60
+    - - =
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/gender
+      - F
+    - - =
+      - - field-id
+        - /databases/Analytics/schemas/public/tables/visits/fields/number_occurences
+      - 1
+    aggregation:
+    - - count
+  type: query
+name: Enfants vus pour la première fois (24-59 mois F)
+archived: false
+collection_position: null
+database_id: /databases/Analytics
+embedding_params: null
+table_id: /databases/Analytics/schemas/public/tables/visits
+result_metadata:
+- base_type: type/BigInteger
+  display_name: Count
+  name: count
+  special_type: type/Quantity
+  fingerprint:
+    global:
+      distinct-count: 1
+      nil%: 0.0
+    type:
+      type/Number:
+        min: 0.0
+        q1: 0.0
+        q3: 0.0
+        max: 0.0
+        sd: null
+        avg: 0.0
+query_type: query
+cache_ttl: null
+display: scalar
+public_uuid: null
+description: Enfants vus pour la première fois (24-59 mois F)

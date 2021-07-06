@@ -1,0 +1,634 @@
+points_of_interest: null
+enable_embedding: false
+dashboard_cards:
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 24
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 9
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 45
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 9
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois  %28115
+    %3C PB %3C 125%29 %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 12
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 48
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %28%3C6 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 0
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 45
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %286-23 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 18
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %2824-59 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 45
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %286-23
+    mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 21
+- sizeX: 3
+  series: []
+  col: 3
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 3
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 3
+  series: []
+  col: 9
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 3
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 3
+  series: []
+  col: 15
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 3
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 3
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 9
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%2823-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 15
+  parameter_mappings: []
+  card_id: /collections/root/cards/Exeat%C3%A9s gu%C3%A9ris%2823-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 59
+- sizeX: 3
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 3
+  series: []
+  col: 3
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 3
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 3
+  series: []
+  col: 9
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon%286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 3
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon %2823-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 3
+  series: []
+  col: 15
+  parameter_mappings: []
+  card_id: /collections/root/cards/Abandon %2823-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 62
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 51
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %28%3C6 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 6
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %28%3C6 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 9
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %2824-59 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 51
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %2824-59
+    mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 39
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 0
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 0
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %28%3C6 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 12
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %286-23 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 33
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 36
+- sizeX: 3
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Admission %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 56
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 6
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %286-23
+    mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 21
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %2824-59
+    mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 39
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 42
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 18
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %286-23
+    mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 21
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 24
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 30
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %2824-59
+    mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 39
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 42
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28%3C6
+    mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 3
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 6
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 33
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 12
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %28%3C6 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 15
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %2824-59 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 42
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 30
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28%3C6
+    mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 3
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 27
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 27
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %28%3C6 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 15
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28%3C6
+    mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 3
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %2824-59 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 36
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois  %28PB %3C
+    115%29 %28%3C6 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 15
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %2824-59 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 48
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 36
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %2824-59 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 51
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %286-23 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 30
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfant vus pour la premi%C3%A8re fois + pes%C3%A9s%2Fmesur%C3%A9s
+    %286-23 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 27
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Total des enfants vus %286-23 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 18
+- sizeX: 6
+  series: []
+  col: 6
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28115 %3C
+    PB %3C 125%29 %2824-59 mois F%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 48
+- sizeX: 6
+  series: []
+  col: 0
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois %28PB %3C
+    115%29 %286-23 mois M%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 33
+- sizeX: 6
+  series: []
+  col: 12
+  parameter_mappings: []
+  card_id: /collections/root/cards/Enfants vus pour la premi%C3%A8re fois + mesure
+    du PB %286-23 mois%29
+  visualization_settings: {}
+  sizeY: 3
+  row: 24
+show_in_getting_started: false
+position: null
+name: Prise en charge de l’enfant
+archived: false
+collection_position: null
+embedding_params: null
+public_uuid: null
+caveats: null
+parameters: []
+description: Prise en charge de l’enfant
