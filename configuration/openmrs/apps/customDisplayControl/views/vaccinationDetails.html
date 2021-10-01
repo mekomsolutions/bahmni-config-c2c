@@ -16,7 +16,10 @@
                 </th>
                 <th>
                     <span>{{ ::'DATE_GIVEN' | translate }}</span>
-                </th>                
+                </th>     
+                <th>
+                    <span>{{ ::'VACCINE_LOT_NUMBER' | translate }}</span>
+                </th>           
             </tr>
 
         </thead>
@@ -35,6 +38,11 @@
                 <td>
                     <div ng-repeat="obs in value | orderBy:['-vaccationSequenceValue']">
                         {{obs.vaccinationDate | bahmniDate }}
+                    </div>
+                </td>
+                <td>
+                    <div ng-repeat="obs in value | orderBy:['-vaccationSequenceValue']">
+                        {{obs.vaccineLotNumber }}
                     </div>
                 </td>
             </tr>
