@@ -133,6 +133,32 @@
     "order": 6,
     "requiredPrivilege": "app:clinical"
   },
+  "bahmniClinicalPatientsSearchInfantVaccinationCommunityPatients": {
+    "id": "bahmni.clinical.patients.search.infantVaccinationCommunityPatients",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler": "emrapi.sqlSearch.vaccinationInfantileCommunautaire",
+      "translationKey": "MODULE_LABEL_INFANT_VACCINATION_COMMUNITY_KEY",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+    },
+    "label": "Infant Vaccination Community",
+    "order": 7,
+    "requiredPrivilege": "app:clinical"
+  },
+  "bahmniClinicalPatientsSearchFamilyPlanningCommunityPatient": {
+    "id": "bahmni.clinical.patients.search.familyPlanningCommunityPatient",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler": "emrapi.sqlSearch.planificationFamilialeCommunautaire",
+      "translationKey": "MODULE_LABEL_FAMILY_PLANNING_COMMUNITY_KEY",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+    },
+    "label": "Family Planning Community",
+    "order": 8,
+    "requiredPrivilege": "app:clinical"
+  },
   "bahmniClinicalPatientsSearchMalnutritionPatient": {
     "id": "bahmni.clinical.patients.search.MalnutritionPatients",
     "extensionPointId": "org.bahmni.patient.search",
